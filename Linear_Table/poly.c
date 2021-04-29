@@ -16,6 +16,8 @@ void Attach(ElementType coef, ElementType expo, Polynomial *tail);
 Polynomial Add(Polynomial l1, Polynomial l2);
 Polynomial Multi(Polynomial l1, Polynomial l2);
 void PrintOut(Polynomial P);
+
+
 int main()
 {
     //读取输入
